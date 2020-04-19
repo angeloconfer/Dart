@@ -4,6 +4,10 @@ class Data {
  int mes;
  int ano;
 
+ String obterFormatada(){
+   return '$dia/$mes/$ano';
+ }
+
 }
 
 main(){
