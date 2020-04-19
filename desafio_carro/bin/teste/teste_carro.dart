@@ -1,4 +1,6 @@
 
+
+
 import '../modelo/carro.dart';
 
 main(){
@@ -9,5 +11,5 @@ main(){
     print('A velocidade atual é ${c1.acelerar()} km/h.');
   }
 
-    print('O carro chegou no máximo com velocidade ${c1.velocidadeAtual} Km/h');
+    print('O carro chegou no máximo com velocidade ${c1.velocidadeMaxima} Km/h');
 }

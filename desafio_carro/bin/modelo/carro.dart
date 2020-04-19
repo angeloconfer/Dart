@@ -4,7 +4,7 @@ class Carro {
  final int velocidadeMaxima;
  int _velocidadeAtual = 0;
 
-  Carro([this.velocidadeMaxima = 200]);
+  Carro([this.velocidadeMaxima = 200, this._velocidadeAtual]);
 
   int acelerar(){
     if(_velocidadeAtual + 5 >= velocidadeMaxima){
